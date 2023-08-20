@@ -2,8 +2,7 @@
  * Reacts with 👀 after confirmation.
  */
 
-const PR_URL = document.location.href;
-const TIMEOUT = 15000;
+const TIMEOUT = 10000;
 
 // React
 const react = () => {
