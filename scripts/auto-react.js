@@ -23,7 +23,7 @@ let timeoutId = setTimeout(react, TIMEOUT);
 
 const isMainPrUrl = (url) => url.match(/https:\/\/github.com\/.*\/pull\/\d+$/);
 
-// Stop the timeout if the user clicks on the page.
+// Handle user navigating out and in of the main PR page.
 navigation.addEventListener("navigate", e => {
   console.log(e);
   // If user navigates outside of main PR page, stop the timeout.
