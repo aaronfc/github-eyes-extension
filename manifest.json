@@ -1,0 +1,27 @@
+{
+  "manifest_version": 3,
+  "name": "Automatic Eyes Reaction for GitHub",
+  "version": "1.0.0",
+
+  "description": "Automatic eyes reaction during PR review on GitHub",
+  "icons": {
+    "128": "assets/icon128.png"
+  },
+
+  "author": "yo@aaron.com.es",
+
+  "action":{
+    "default_popup": "index.html",
+    "default_title": "Automatic Eyes Reaction"
+  },
+
+  "content_scripts": [
+    {
+      "matches": ["https://github.com/*/pull/*"],
+      "exclude_matches": ["https://github.com/*/pull/*/*"],
+      "js": ["scripts/auto-react.js"],
+      "run_at": "document_idle",
+      "world": "MAIN"
+    }
+  ]
+}
