@@ -1,9 +1,9 @@
 {
   "manifest_version": 3,
-  "name": "Automatic Eyes Reaction for GitHub",
+  "name": "GitHub Eyes",
   "version": "1.0.0",
 
-  "description": "Automatic eyes reaction during PR review on GitHub",
+  "description": "Automatic eyes reaction for GitHub pull requests",
   "icons": {
     "128": "assets/icon128.png"
   },
@@ -12,7 +12,7 @@
 
   "action":{
     "default_popup": "index.html",
-    "default_title": "Automatic Eyes Reaction"
+    "default_title": "GitHub Eyes"
   },
 
   "content_scripts": [

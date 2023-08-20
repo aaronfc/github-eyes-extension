@@ -1,4 +1,4 @@
-# Eyes
+# GitHub Eyes (extension)
 Browser extension to automatically react with 👀 to GitHub PRs (after confirmation).
 
 ## Installation
@@ -8,3 +8,7 @@ Browser extension to automatically react with 👀 to GitHub PRs (after confirma
 4. Click on "Load unpacked extension"
 5. Select the cloned repository
 6. Go to a GitHub PR, enjoy.
+
+## Notice
+Despite the "GitHub" in the name, this project isn't associated with GitHub in any way.
+It's just a fun project.
