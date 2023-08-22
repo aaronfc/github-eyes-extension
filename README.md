@@ -2,6 +2,11 @@
 Browser extension to automatically react with 👀 to GitHub PRs (after confirmation).
 
 ## Installation
+Go and install it:
+- [Chrome](https://chrome.google.com/webstore/detail/github-eyes/kdkedkpgjobfhcelpjmdemkjjlljbdlc?hl=es&authuser=0)
+- Firefox (soon)
+
+## Installation (developers)
 1. Clone this repository
 2. Open `chrome://extensions/` in your browser
 3. Enable developer mode
