@@ -20,7 +20,7 @@ const promptForReaction = () => {
   }
 };
 
-const isMainPrUrl = (url) => url.match(/https:\/\/github.com\/.*\/pull\/\d+$/);
+const isMainPrUrl = (url) => url.match(/https:\/\/github.com\/.*\/pull\/\d+[^/]*$/);
 
 // Start reaction countdown process.
 const start = () => {
